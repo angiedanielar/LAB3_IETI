@@ -15,13 +15,7 @@ const App = () => {
 
   let isLogged = localStorage.getItem("isLoggedIn");
 
-  if (isLogged === "false") {
-    isLogged = false;
-  }
-
-  else if (isLogged === "true") {
-    isLogged = true;
-  }
+  isLogged = (isLogged === "true" ? true : false)
 
   const [isLoggedIn, setisLoggedIn] = useState(isLogged);
 
@@ -63,7 +57,6 @@ const App = () => {
         <div>
           {!isLoggedIn && (<Route path="/" component={LoginView} />)}
           {isLoggedIn && (<Route path="/" component={TodoAppView} />)}
-    
         </div>
       </div>
     </Router>

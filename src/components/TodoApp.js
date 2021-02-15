@@ -1,7 +1,6 @@
 import React from 'react';
-import ResponsiveDrawer from './ResponsiveDrawer';
+//import ResponsiveDrawer from './ResponsiveDrawer';
 import CardList from './CardList';
-import { ModeComment } from '@material-ui/icons';
 import moment from 'moment';
 
 export const TodoApp = () => {
@@ -26,7 +25,6 @@ export const TodoApp = () => {
 
     return (
         <div>
-            <ResponsiveDrawer></ResponsiveDrawer>
             <CardList lista={lista}></CardList>
         </div>
     )
