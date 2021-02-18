@@ -2,6 +2,10 @@
 
 [Go to the app](https://ietilabtres.herokuapp.com/)
 
+_User: daniela@gmail.com_
+
+_Password: hola123_
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
